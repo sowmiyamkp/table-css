@@ -1,0 +1,29 @@
+tr,th,td
+{
+	border-collapse:collapse;
+	padding:10px;
+	border-bottom:5px solid purple;
+}
+table{
+	border-collapse:collapse;
+	height:auto; 	
+	width:70%;
+	text-align:center;
+	
+}
+td
+{
+	vertical-align:middle;
+	height:50px;
+	
+}
+
+tr:nth-child(even)
+{
+	background-color:skyblue;
+}
+
+tr:hover
+{
+	font-size:25px;
+}
